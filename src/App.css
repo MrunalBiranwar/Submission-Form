@@ -1,0 +1,64 @@
+body{
+  background-color: gainsboro;
+  text-align: center;
+}
+.App {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 20 rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+  width: 600px;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+h2{
+  text-align: center;
+  color: green;
+  margin: 10px 10px;
+}
+fieldset{
+  border: none;
+}
+input{
+  display: block;
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+}
+input[type='radio'],
+input[type='checkbox']{
+  display: inline;
+  width: 10%;
+}
+select{
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+label{
+  display: block;
+  width: 100%;
+  text-align: left;
+  font-weight:bolder ;
+  padding-top: 8px;
+}
+textarea{
+  resize: none;
+  display: block;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+button{
+  background-color: rgb(45, 161, 45);
+  color: white;
+  border-radius: 10px;
+  padding: 20px 70px;
+  margin: 15px;
+  border: none;
+
+}
+
